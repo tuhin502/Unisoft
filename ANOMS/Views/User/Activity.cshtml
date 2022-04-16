@@ -1,0 +1,107 @@
+﻿@model AN.Entities.ViewModel.ActivityupdateVM
+
+<style>
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+
+<div class="container-fluid">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Activity</h3>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-auto col-sm-12">
+            <form action="/User/ActivityEdit_config" method="post" class="needs-validation mt-3" enctype="multipart/form-data">
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">User ID</label>
+                        <input readonly type="text" name="id" id="" value="@Model.id" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">User Name</label>
+                        <input readonly type="text" name="name" id="" value="@Model.name" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+
+
+                    <div class="form-group col-md-4">
+
+                        <label for="validationCustom01">User Type</label>
+                        <input readonly type="text" name="t_Name" id="" value="@Model.t_Name" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="input">Activity</label>
+                        <div class="input-group">
+                            <div class="form-check mr-2">
+                                @Html.RadioButtonFor(model => model.active, "0", new { htmlAttributes = new { type = "radio", id = "active" } })
+
+                                <label class="form-check-label" for="gridRadios1">
+                                    Activity
+                                </label>
+
+                            </div>
+                            <div class="form-check mr-2">
+                                @Html.RadioButtonFor(model => model.active, "1", new { htmlAttributes = new { type = "radio", id = "active" } })
+
+                                <label class="form-check-label" for="gridRadios2">
+                                    Inactivity
+                                </label>
+                            </div>
+                          
+
+                        </div>
+                        <span id="spnError" style="display: none">Please select a Activity.</span>
+                        <span id="message"></span>
+                    </div>
+                    <div class="col-md-4 mb-3">
+
+                    </div>
+                    @*<div class="col-md-4 mb-3">
+                        
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02"> Users Activity</label>
+                        <input id="grade" type="number" name="active" class="form-control" style="height:40px;" placeholder="Value Range 0-1" value="@Model.active" required />
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                    </div>*@
+                </div>
+                <div class="form-row">
+                    <input type="hidden" name="id" id="titlebangla" value="@Model.id" style="height:40px;" class="form-control" />
+
+                </div>
+                <div class="text-center">
+                    <input type="submit" id="submitbtn" value="Update" class="btn btn-primary" style="height:40px;width:100px;" />
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

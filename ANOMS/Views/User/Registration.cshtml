@@ -1,0 +1,248 @@
+﻿@model AN.Entities.ViewModel.UsersdVM
+@*@model IEnumerable<AN.Entities.ViewModel.GetAllRegistrationVM>*@
+@*@model IEnumerable<AN.Entities.ViewModel.GetAllRegistrationVM>*@
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Registration/style.css" rel="stylesheet" />
+<link href="~/Content/Registration/table.css" rel="stylesheet" />
+<link href="~/Content/Registration/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet" />
+<style>
+    label {
+        color: black;
+    }
+
+    th {
+        color: white;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+
+@using (Html.BeginForm("Registration_config", "User", FormMethod.Post))
+{
+    <div class="wrapper" style="background-image: url('/Content/Registration/blue_gradient_1400x939.jpg');">
+        <div class="inner" style="margin-top: 5px;">
+            <form action="" class="signin-form">
+                <h3>User Add</h3>
+                <div class="form-group">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-wrapper">
+                        <label for="">User Name</label>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account-o"></i>
+                            @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter name", required = "true", type = "text" } })
+
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">User Type</label>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-accounts-list"></i>
+                            @Html.DropDownListFor(model => model.t_ID, ViewBag.typeList as SelectList, "--Select One--", new { @class = "form-control", @onChange = "SelectedValue(this)", required = "true" })
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div id="shop" class="form-wrapper" style="display:none;">
+                        <label for="">Shop Name</label>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-tv-list user"></i>
+                            @Html.EditorFor(model => model.s_Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter name" } })
+                        </div>
+                    </div>
+                    <div id="product" class="form-wrapper" style="display:none;">
+                        <label for="">Product Category</label>
+                        <div class="form-holder" style="width: 92%;">
+                            <i class="zmdi zmdi-accounts-list"></i>
+                            @Html.DropDownListFor(model => model.pc_ID, ViewBag.CategoryList as SelectList, "--Select One--", new { @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Email</label>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-email"></i>
+                            @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control", placeholder = "your Email", required = "true", type = "email" } })
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-wrapper">
+                        <label for="">Contact</label>
+                        <div class="form-holder select">
+                            <i class="zmdi zmdi-phone"></i>
+                            @Html.EditorFor(model => model.id, new { htmlAttributes = new { @class = "form-control", placeholder = "your contact", required = "true", type = "number" } })
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Address</label>
+                        <div class="form-holder select">
+                            <i class="zmdi fa-address-book"></i>
+                            @Html.EditorFor(model => model.address, new { htmlAttributes = new { @class = "form-control", placeholder = "your address", required = "true", type = "text" } })
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-wrapper">
+                        <label for="">Password</label>
+                        <div class="form-holder select">
+                            <i class="zmdi zmdi-phone"></i>
+                            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", id = "password", placeholder = "your password", required = "true", type = "number" } })
+
+                        </div>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Confirm Password</label>
+                        <div class="form-holder select">
+                            <i class="zmdi fa-address-book"></i>
+                            @Html.EditorFor(model => model.password, new { htmlAttributes = new { @class = "form-control", id = "confirm_password", placeholder = "confirm password", required = "true", type = "number" } })
+                            <span id='message'></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="form-end text-center" style="margin-top:-20px;">
+
+                    <div class="button-holder text-center" style="margin-left:65px;">
+                        <button type="submit" id="submitButton">Register Now</button>
+                    </div>
+                    <br />
+                </div>
+                <br />
+                @if (@TempData["AlertMessage"] != null)
+                {
+                    <div class="alert alert-success  alert-dismissible">
+
+                        <p style="color:red;text-align:center;" data-dismiss="alert">@TempData["AlertMessage"]</p>
+
+                    </div>
+                }
+            </form>
+        </div>
+    </div>
+
+}
+<h4 class="text-center text-white mt-3 p-1" style="background:#55a630;">User List</h4>
+
+<div class="table-container mt-1" style="">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>User Type</th>
+                <th>Product Category</th>
+                <th>Shop Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in ViewBag.list)
+        {
+            <tbody style="text-align:center;">
+                <tr>
+                    <td data-label="User Name">@item.name</td>
+                    <td data-label="User Type">@item.t_Name</td>
+                    <td data-label="Product Category">@item.pc_Name</td>
+                    <td data-label="Shop Name">@item.s_Name</td>
+                    <td data-label="Address">@item.address</td>
+                    <td data-label="Email">@item.email</td>
+
+
+                    <td data-label="Action" class="form-check-inline">
+
+                        <a href="/User/UserOrderDetails?id=@item.id" class="btn btn btn-success">Details</a>
+                        <a href="/User/Activity?id=@item.id" class=" btn btn-info" style="border:none;margin-left:3px;" id="btnfor">Activity</a>
+    @*<form action="/User/User_Delete" method="post" style="border:none;margin-left:3px;" id="btnfor">
+                            <input type="submit" class="btn btn-danger" value="Delete" />
+                            <input type="hidden" name="id" value="@item.id" />
+                        </form>*@
+                    </td>
+
+                </tr>
+            </tbody>
+        }
+
+    </table>
+</div>
+
+<script src="~/Scripts/jquery.js"></script>
+<script>
+
+    $('#confirm_password').on('keyup', function () {
+        if ($('#password').val() == $('#confirm_password').val()) {
+            $('#message').html('Password Matching').css('color', 'green');
+        } else
+            $('#message').html('Password Not Matching').css('color', 'red');
+    });
+
+
+
+    //To get selected value an text of dropdownlist
+    function SelectedValue(ddlObject) {
+
+        //Selected value of dropdownlist
+        var selectedValue = ddlObject.value;
+        //Selected text of dropdownlist
+        var selectedText = ddlObject.options[ddlObject.selectedIndex].innerHTML;
+        //if (selectedText === "Dealer") {
+        //    $("#shop").css("display", "block");
+        //}
+        //else if (selectedText != "Dealer") {
+        //    $("#shop").css("display", "none");
+        //}
+
+        // if (selectedText === 'Admin' || selectedText === 'S_Admin') {
+        //    $("#product").css("display", "block")
+        //} else if (selectedText != "Admin" || selectedText != "S_Admin"){
+        //    $("#product").css("display", "none");
+        //}
+        if (selectedValue === '2') {
+            $("#product").css("display", "none")
+        }
+
+        if (selectedValue === "3") {
+            $("#shop").css("display", "block");
+        }
+        else if (selectedValue != "3") {
+            $("#shop").css("display", "none");
+        }
+
+        if (selectedValue === '1') {
+            $("#product").css("display", "block")
+        } else if (selectedValue != "1") {
+            $("#product").css("display", "none");
+        }
+    }
+
+
+</script>
+
+@*<script>
+        function change() {
+            //debugger;
+            var temp = $("#exampleFormControlSelect1").val();
+            if (temp === 'Dealer') {
+                $("#shop").css("display", "block");
+            } else if (temp != "Dealer") {
+                $("#shop").css("display", "none");
+            }
+
+            if (temp === 'Admin' || temp === 'S_Admin') {
+                $("#product").css("display", "block")
+            } else if (temp != "Admin" || temp != "S_Admin") {
+                $("#product").css("display", "none");
+            }
+        }
+    </script>*@

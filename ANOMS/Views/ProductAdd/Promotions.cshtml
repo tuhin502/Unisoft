@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Promotions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    th {
+        color: white;
+    }
+    tr,td{
+        text-align:center;
+    }
+    label {
+        color: black;
+    }
+</style>
+<form class="form-group">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Promotions</h3>
+    <div class="jumbotron">
+
+        <div class="form-row" style="margin-top:-35px;">
+            <div class="form-group col-md-6">
+                <label for="input">To</label>
+                <select class="form-control" required>
+                    <option selected>Choose...</option>
+                    <option>All</option>
+                    <option>Number</option>
+                    <option>Specified</option>
+                </select>
+
+            </div>
+            <div class="form-group col-md-6">
+                <label for="input">Validity</label>
+                <input type="date" name="validity" class="form-control" placeholder="" required />
+
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="input">Message</label>
+                <textarea typeof="text" class="form-control" style="height:100px;" placeholder="Enter Your Message" required></textarea>
+
+            </div>
+        </div>
+
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary w-25 " type="submit" id="submitbtn">Send</button>
+            <br />
+            <p style="color:red"></p>
+        </div>
+
+    </div>
+</form>
+
+<h4 class="text-center text-white p-1" style="background:#55a630;margin-top:-20px;">Message List</h4>
+<div class="table-responsive" style="margin-top:-7px;">
+    <table class="table">
+        <thead class="table-secondary" style="background:#0096c7;">
+            <tr>
+                <th scope="col">Number</th>
+                <th scope="col">Message</th>
+                <th scope="col">Validity</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">656551</td>
+                <td>Bonus on Bkash Payment 15%</td>
+                <td>Bonus on Qcash Payment 10%</td>
+               
+               
+            </tr>
+            <tr>
+                <td scope="row">76762</td>
+                <td>Bonus on Qcash Payment 10%</td>
+                <td>Bonus on Bkash Payment 15%</td>
+                
+
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
+

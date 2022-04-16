@@ -1,0 +1,143 @@
+﻿@model AN.Entities.ViewModel.ProductEntryEditView
+
+<div class="container-fluid">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Product  Edit</h3>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-auto col-sm-12">
+            <form action="/ProductAdd/ProductEntryEdit_config" method="post" class="needs-validation mt-3" enctype="multipart/form-data">
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Product Category</label>
+                        <input readonly type="text" name="pc_Name" id="productName" value="@Model.pc_Name" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">Product Name</label>
+                        <input type="text" name="prdt_Name" id="productName" value="@Model.prdt_Name" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Product Brand</label>
+                        <input type="text" name="brnd_Name" id="company" value="@Model.brnd_Name" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Company Name
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Package</label>
+                        <div class="input-group">
+                            <input id="package" name="pkg_Name" class="form-control" style="height:40px;" value="@Model.pkg_Name" required />
+                            <div class="invalid-feedback">
+                                Please Enter a Package.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label class="label">Pakage Grade</label>
+                        <input id="grade" type="number" name="pkg_Grade" class="form-control" style="height:40px;" placeholder="Value Range 1-3" value="@Model.pkg_Grade" required />
+                        @*<div class="input-group">
+                                <div class="form-check mr-3">
+                                    <input class="form-check-input" type="radio" name="pkg_Grade" id="G1" value="@Model.pkg_Grade" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Grade1
+                                    </label>
+                                </div>
+                                <div class="form-check mr-3">
+                                    <input class="form-check-input" type="radio" name="pkg_Grade" id="G1" value="2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Grade2
+                                    </label>
+                                </div>
+                                <div class="form-check mr-3">
+                                    <input class="form-check-input" type="radio" name="pkg_Grade" id="G1" value="3">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Grade3
+                                    </label>
+                                </div>
+
+                            </div>*@
+
+
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Quantity</label>
+                        <input type="number" name="min_Quantity" id="minimumStock" value="@Model.min_Quantity" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please provide a value
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">InPrice</label><span id="pricecheck"></span>
+                        <div class="input-group">
+                            <input type="number" name="in_Price" id="inprice" value="@Model.in_Price" style="height:40px;" class="form-control" required />
+                            <div class="invalid-feedback">
+                                Please provide a price
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Sell-Price</label><span id="pricecheck"></span>
+                        <div class="input-group">
+                            <input type="number" name="sell_Price" id="sell_Price" value="@Model.sell_Price" style="height:40px;" class="form-control" required />
+                            <div class="invalid-feedback">
+                                Please provide a price
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Sellable-Quantity</label><span id="pricecheck"></span>
+                        <div class="input-group">
+                            <input type="number" name="sellQuantity" id="sell_Price" value="@Model.sellQuantity" style="height:40px;" class="form-control" required />
+                            <div class="invalid-feedback">
+                                Please provide a Sellable-Quantity
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="o_ID" id="titlebangla" value="@Model.o_ID" style="height:40px;" class="form-control" />
+                    <input type="hidden" name="prdt_ID" id="titlebangla" value="@Model.prdt_ID" style="height:40px;" class="form-control" />
+                    <input type="hidden" name="pc_ID" id="titlebangla" value="@Model.pc_ID" style="height:40px;" class="form-control" />
+                    <input type="hidden" name="brnd_ID" id="titlebangla" value="@Model.brnd_ID" style="height:40px;" class="form-control" />
+                    <input type="hidden" name="pkg_ID" id="titlebangla" value="@Model.pkg_ID" style="height:40px;" class="form-control" />
+                   
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Minimum-Quantity</label><span id="pricecheck"></span>
+                        <div class="input-group">
+                            <input type="number" name="miniQuantity" id="sell_Price" value="@Model.miniQuantity" style="height:40px;" class="form-control" required />
+                            <div class="invalid-feedback">
+                                Please provide a Minimum-Quantity
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" id="submitbtn" value="Update" class="btn btn-primary" style="height:40px;width:100px;" />
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

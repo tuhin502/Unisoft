@@ -1,0 +1,44 @@
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll.config
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.pdb
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll
+D:\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.dll
+D:\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.pdb
+D:\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll.config
+D:\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.xml
+D:\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.csprojResolveAssemblyReference.cache
+D:\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.dll
+D:\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll.config
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.dll
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll.config
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.xml
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.csprojAssemblyReference.cache
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.csproj.CoreCompileInputs.cache
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.csproj.CopyComplete
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.dll
+C:\MR tuhin\Novembor\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.pdb
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll.config
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.infrastructure.pdb
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.pdb
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\AN.Entities.dll.config
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.xml
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\16.11.21\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.csprojResolveAssemblyReference.cache
+D:\16.11.21\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.dll
+D:\16.11.21\ANOMS\AN.infrastructure\obj\Debug\AN.infrastructure.pdb
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\System.Data.Common.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\System.Data.SqlClient.dll
+D:\16.11.21\ANOMS\AN.infrastructure\bin\Debug\System.Xml.Linq.dll

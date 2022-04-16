@@ -1,0 +1,80 @@
+﻿@model ANOMS.Models.Productsvm
+@{
+    ViewBag.Title = "ReportWeakly";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Inventory</h3>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-auto col-sm-12">
+            <form action="/ProductAdd/ProductEntryEdit_config" method="post" class="needs-validation mt-3" enctype="multipart/form-data">
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Category</label>
+                        @*@Html.DropDownListFor(model => model.pc_ID, ViewBag.CategoryList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })*@
+
+                        <input type="text" name="prdt_Name" id="productName" value="" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Name</label>
+
+                        @*@Html.DropDownListFor(model => model.prdt_Name, ViewBag.ProductList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })*@
+
+
+                        <input type="text" name="prdt_Name" id="productName" value="" style="height:40px;" class="form-control" required />
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+
+                        <label for="validationCustom01">Start-Date</label>
+                        @*<input type="checkbox" id="checkbox" >*@
+                        <input type="date" id="gfg" class="form-control" />
+
+
+
+                    </div>
+                    <div class="col-md-3 mb-3">
+
+                        <label for="validationCustom01">End-Date</label>
+                        @*<input type="checkbox" id="checkbox" >*@
+                        <input type="date" id="gfg" class="form-control" />
+
+
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <button class="btn btn-success w-50" style="margin-top:30px;">Search</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/Scripts/jquery.js"></script>*
+<script>
+    $(function () {
+        $("#gfg").datepicker({
+            dateFormat: "yy/DD/dd/mm",
+            dayNames: ["mon", "tue", "wed", "thus",
+                "fri", "sat", "sun"],
+        });
+    });
+</script>
+

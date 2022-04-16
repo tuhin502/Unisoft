@@ -1,0 +1,58 @@
+﻿@model IEnumerable<AN.Entities.ViewModel.GetAllRegistrationVM>
+
+@{
+    ViewBag.Title = "Userlist";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}<link href="~/Content/Registration/table.css" rel="stylesheet" />
+
+<h4 class="text-center text-white mt-3 p-1" style="background:#55a630;">User List</h4>
+<div class="table-container mt-1" style="">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>User Type</th>
+                <th>Product Category</th>
+                <th>Shop Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tbody style="text-align:center;">
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.t_Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.pc_Name)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.s_Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.email)
+                    </td>
+                    <td data-label="Action" class="form-check-inline">
+
+                        <a href="/User/UserOrderDetails?id=@item.id" class="btn btn btn-success">Details</a>
+                        <form action="/User/User_Delete" method="post" style="border:none;margin-left:3px;" id="btnfor">
+                            <input type="submit" class="btn btn-danger" value="Delete" />
+                            <input type="hidden" name="id" value="@item.id" />
+                        </form>
+                    </td>
+                </tr>
+            </tbody> }
+
+    </table>
+</div>

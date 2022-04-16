@@ -1,0 +1,35 @@
+D:\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll.config
+D:\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll
+D:\ANOMS\AN.Interface\bin\Debug\AN.Interface.pdb
+D:\ANOMS\AN.Interface\bin\Debug\EntityFramework.dll
+D:\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.dll
+D:\ANOMS\AN.Interface\bin\Debug\EntityFramework.xml
+D:\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.xml
+D:\ANOMS\AN.Interface\obj\Debug\AN.Interface.csprojResolveAssemblyReference.cache
+D:\ANOMS\AN.Interface\obj\Debug\AN.Interface.dll
+D:\ANOMS\AN.Interface\obj\Debug\AN.Interface.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll.config
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\AN.Interface.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\EntityFramework.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\EntityFramework.xml
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.xml
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\obj\Debug\AN.Interface.csprojAssemblyReference.cache
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\obj\Debug\AN.Interface.csproj.CoreCompileInputs.cache
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\obj\Debug\AN.Interface.csproj.CopyComplete
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\obj\Debug\AN.Interface.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Interface\obj\Debug\AN.Interface.pdb
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll.config
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\AN.Interface.dll
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\AN.Interface.pdb
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\EntityFramework.dll
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.dll
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\EntityFramework.xml
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\EntityFramework.SqlServer.xml
+D:\16.11.21\ANOMS\AN.Interface\obj\Debug\AN.Interface.dll
+D:\16.11.21\ANOMS\AN.Interface\obj\Debug\AN.Interface.pdb
+D:\16.11.21\ANOMS\AN.Interface\obj\Debug\AN.Interface.csprojResolveAssemblyReference.cache
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\System.Data.Common.dll
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\System.Data.SqlClient.dll
+D:\16.11.21\ANOMS\AN.Interface\bin\Debug\System.Xml.Linq.dll

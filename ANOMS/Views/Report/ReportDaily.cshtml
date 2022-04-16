@@ -1,0 +1,110 @@
+﻿@model ANOMS.Models.Productsvm
+@{
+    ViewBag.Title = "ReportDaily";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Inventory</h3>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-auto col-sm-12">
+            <form action="/Report/ReportDaily_config" method="post" class="needs-validation mt-3" enctype="multipart/form-data">
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Category</label>
+                        @Html.DropDownListFor(model => model.pc_ID, ViewBag.CategoryList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })
+
+
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Name</label>
+
+                        @Html.DropDownListFor(model => model.prdt_Name, ViewBag.ProductList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })
+
+
+                        @*<input type="text" name="prdt_Name" id="productName" value="" style="height:40px;" class="form-control" required />*@
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+
+                        <label for="validationCustom01">Daily</label>
+
+                        <input type="date" name="entryDate" id="gfg" class="form-control" />
+
+
+
+                    </div>
+
+                    <div class="col-md-6">
+                        @*<input type="submit" id="submitbtn" value="Search" class="btn btn-primary" style="height:40px;width:100px;" />*@
+                        @*<button type="submit" id="submitButton" class="btn btn-primary">Submit</button>*@
+                        <button class="btn btn-success w-50" style="margin-top:30px;">Search</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+@*<div class="table-container" style="margin-top:-10px;">
+    <table class="table">
+
+        <thead class="table-secondary">
+            <tr>
+               
+                <th scope="col">Product Category</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Brand</th>
+                <th scope="col">Grade</th>
+                <th scope="col">Package Name</th>
+                <th scope="col">In-Price</th>
+                <th scope="col">sell-Price</th>
+                <th Scope="col"> Quantity</th>
+                <th Scope="col"> MiniQuantity</th>
+                <th Scope="col"> SellQuantity</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        @foreach (var item in ViewBag.list)
+        {
+            <tbody>
+                <tr>
+                    <td data-label="Product Category"></td>
+                    <td data-label="Product Name"></td>
+                    <td data-label="Product Brand"></td>
+                    <td data-label="Grade"></td>
+                    <td data-label="Package Name"></td>
+                    <td data-label="In-Price"></td>
+                    <td data-label="Sell-price"></td>
+                    <td data-label="Sell-price"></td>
+                    <td data-label="Sell-price"></td>
+                    <td data-label="Sell-price"></td>
+                    
+
+
+                    <td data-label="Action" class="form-check-inline">
+
+                        
+                       
+                        
+                    </td>
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>*@
+

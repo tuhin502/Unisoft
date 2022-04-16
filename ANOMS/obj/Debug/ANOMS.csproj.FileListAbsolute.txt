@@ -1,0 +1,373 @@
+D:\ANOMS\ANOMS\bin\ApplicationInsights.config
+D:\ANOMS\ANOMS\bin\roslyn\csc.exe
+D:\ANOMS\ANOMS\bin\roslyn\csc.exe.config
+D:\ANOMS\ANOMS\bin\roslyn\csc.rsp
+D:\ANOMS\ANOMS\bin\roslyn\csi.exe
+D:\ANOMS\ANOMS\bin\roslyn\csi.rsp
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ANOMS\ANOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ANOMS\ANOMS\bin\roslyn\System.AppContext.dll
+D:\ANOMS\ANOMS\bin\roslyn\System.Collections.Immutable.dll
+D:\ANOMS\ANOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.dll
+D:\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ANOMS\ANOMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\ANOMS\ANOMS\bin\roslyn\vbc.exe
+D:\ANOMS\ANOMS\bin\roslyn\vbc.exe.config
+D:\ANOMS\ANOMS\bin\roslyn\vbc.rsp
+D:\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe
+D:\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe.config
+D:\ANOMS\ANOMS\bin\ANOMS.dll.config
+D:\ANOMS\ANOMS\bin\ANOMS.dll
+D:\ANOMS\ANOMS\bin\ANOMS.pdb
+D:\ANOMS\ANOMS\bin\Antlr3.Runtime.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.Web.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.dll
+D:\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.dll
+D:\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ANOMS\ANOMS\bin\Microsoft.Web.Infrastructure.dll
+D:\ANOMS\ANOMS\bin\Newtonsoft.Json.dll
+D:\ANOMS\ANOMS\bin\System.Net.Http.Formatting.dll
+D:\ANOMS\ANOMS\bin\System.Web.Helpers.dll
+D:\ANOMS\ANOMS\bin\System.Web.Http.dll
+D:\ANOMS\ANOMS\bin\System.Web.Http.WebHost.dll
+D:\ANOMS\ANOMS\bin\System.Web.Mvc.dll
+D:\ANOMS\ANOMS\bin\System.Web.Optimization.dll
+D:\ANOMS\ANOMS\bin\System.Web.Razor.dll
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.dll
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.dll
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.dll
+D:\ANOMS\ANOMS\bin\WebGrease.dll
+D:\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ANOMS\ANOMS\bin\System.Web.Helpers.xml
+D:\ANOMS\ANOMS\bin\System.Web.Mvc.xml
+D:\ANOMS\ANOMS\bin\System.Web.Optimization.xml
+D:\ANOMS\ANOMS\bin\System.Web.Razor.xml
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.xml
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.xml
+D:\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.xml
+D:\ANOMS\ANOMS\bin\Antlr3.Runtime.pdb
+D:\ANOMS\ANOMS\bin\Newtonsoft.Json.xml
+D:\ANOMS\ANOMS\bin\System.Net.Http.Formatting.xml
+D:\ANOMS\ANOMS\bin\System.Web.Http.xml
+D:\ANOMS\ANOMS\bin\System.Web.Http.WebHost.xml
+D:\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.xml
+D:\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.xml
+D:\ANOMS\ANOMS\bin\Microsoft.AI.Web.xml
+D:\ANOMS\ANOMS\obj\Debug\ANOMS.dll
+D:\ANOMS\ANOMS\obj\Debug\ANOMS.pdb
+D:\ANOMS\ANOMS\bin\EntityFramework.dll
+D:\ANOMS\ANOMS\bin\EntityFramework.SqlServer.dll
+D:\ANOMS\ANOMS\bin\EntityFramework.xml
+D:\ANOMS\ANOMS\bin\EntityFramework.SqlServer.xml
+D:\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\ANOMS\ANOMS\bin\Remotion.Linq.dll
+D:\ANOMS\ANOMS\bin\System.Buffers.dll
+D:\ANOMS\ANOMS\bin\System.Collections.Immutable.dll
+D:\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.dll
+D:\ANOMS\ANOMS\bin\System.Memory.dll
+D:\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.dll
+D:\ANOMS\ANOMS\bin\Unity.Abstractions.dll
+D:\ANOMS\ANOMS\bin\Unity.Container.dll
+D:\ANOMS\ANOMS\bin\Unity.Mvc.dll
+D:\ANOMS\ANOMS\bin\WebActivatorEx.dll
+D:\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\ANOMS\ANOMS\bin\Remotion.Linq.xml
+D:\ANOMS\ANOMS\bin\System.Buffers.xml
+D:\ANOMS\ANOMS\bin\System.Collections.Immutable.xml
+D:\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.xml
+D:\ANOMS\ANOMS\bin\System.Memory.xml
+D:\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.xml
+D:\ANOMS\ANOMS\bin\Unity.Abstractions.pdb
+D:\ANOMS\ANOMS\bin\Unity.Container.pdb
+D:\ANOMS\ANOMS\bin\Unity.Mvc.pdb
+D:\ANOMS\ANOMS\bin\Unity.Mvc.xml
+D:\ANOMS\ANOMS\bin\AN.Entities.dll
+D:\ANOMS\ANOMS\bin\AN.Service.dll
+D:\ANOMS\ANOMS\bin\AN.infrastructure.dll
+D:\ANOMS\ANOMS\bin\AN.Entities.pdb
+D:\ANOMS\ANOMS\bin\AN.Entities.dll.config
+D:\ANOMS\ANOMS\bin\AN.Service.pdb
+D:\ANOMS\ANOMS\bin\AN.Service.dll.config
+D:\ANOMS\ANOMS\bin\AN.infrastructure.pdb
+D:\ANOMS\ANOMS\bin\AN.infrastructure.dll.config
+D:\ANOMS\ANOMS\obj\Debug\ANOMS.csprojResolveAssemblyReference.cache
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\ApplicationInsights.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\csc.exe
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\csc.exe.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\csc.rsp
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\csi.exe
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\csi.rsp
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.AppContext.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.Collections.Immutable.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\System.Reflection.Metadata.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\vbc.exe
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\vbc.exe.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\vbc.rsp
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\ANOMS.dll.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\ANOMS.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\ANOMS.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Entities.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Service.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Antlr3.Runtime.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\EntityFramework.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\EntityFramework.SqlServer.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.Web.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.Web.Infrastructure.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Newtonsoft.Json.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Remotion.Linq.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Buffers.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Collections.Immutable.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Memory.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Net.Http.Formatting.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Helpers.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Http.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Http.WebHost.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Mvc.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Optimization.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Razor.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Abstractions.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Container.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Mvc.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\WebActivatorEx.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\WebGrease.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.infrastructure.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Entities.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Entities.dll.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Service.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.Service.dll.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\EntityFramework.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\EntityFramework.SqlServer.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Remotion.Linq.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Buffers.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Collections.Immutable.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Memory.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Net.Http.Formatting.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Helpers.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Http.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Http.WebHost.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Mvc.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Razor.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\System.Web.Optimization.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Abstractions.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Container.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Mvc.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Unity.Mvc.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Antlr3.Runtime.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Newtonsoft.Json.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\Microsoft.AI.Web.xml
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.infrastructure.pdb
+C:\MR tuhin\Novembor\ANOMS\ANOMS\bin\AN.infrastructure.dll.config
+C:\MR tuhin\Novembor\ANOMS\ANOMS\obj\Debug\ANOMS.csprojAssemblyReference.cache
+C:\MR tuhin\Novembor\ANOMS\ANOMS\obj\Debug\ANOMS.csproj.CoreCompileInputs.cache
+C:\MR tuhin\Novembor\ANOMS\ANOMS\obj\Debug\ANOMS.csproj.CopyComplete
+C:\MR tuhin\Novembor\ANOMS\ANOMS\obj\Debug\ANOMS.dll
+C:\MR tuhin\Novembor\ANOMS\ANOMS\obj\Debug\ANOMS.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\ApplicationInsights.config
+D:\16.11.21\ANOMS\ANOMS\bin\ANOMS.dll.config
+D:\16.11.21\ANOMS\ANOMS\bin\ANOMS.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ANOMS.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Entities.dll
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Service.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Antlr3.Runtime.dll
+D:\16.11.21\ANOMS\ANOMS\bin\EntityFramework.dll
+D:\16.11.21\ANOMS\ANOMS\bin\EntityFramework.SqlServer.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.Web.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.Web.Infrastructure.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Newtonsoft.Json.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Remotion.Linq.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Buffers.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Collections.Immutable.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Memory.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Net.Http.Formatting.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Helpers.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.WebHost.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Mvc.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Optimization.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Razor.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Abstractions.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Container.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Mvc.dll
+D:\16.11.21\ANOMS\ANOMS\bin\WebActivatorEx.dll
+D:\16.11.21\ANOMS\ANOMS\bin\WebGrease.dll
+D:\16.11.21\ANOMS\ANOMS\bin\AN.infrastructure.dll
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Entities.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Entities.dll.config
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Service.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Service.dll.config
+D:\16.11.21\ANOMS\ANOMS\bin\EntityFramework.xml
+D:\16.11.21\ANOMS\ANOMS\bin\EntityFramework.SqlServer.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Remotion.Linq.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Buffers.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Collections.Immutable.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Diagnostics.DiagnosticSource.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Memory.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Net.Http.Formatting.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Threading.Tasks.Extensions.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Helpers.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.WebHost.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Mvc.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Razor.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.Deployment.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.WebPages.Razor.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Optimization.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Abstractions.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Container.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Mvc.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\Unity.Mvc.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Antlr3.Runtime.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\Newtonsoft.Json.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.ApplicationInsights.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.DependencyCollector.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.WindowsServer.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.AI.Web.xml
+D:\16.11.21\ANOMS\ANOMS\bin\AN.infrastructure.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.infrastructure.dll.config
+D:\16.11.21\ANOMS\ANOMS\obj\Debug\ANOMS.csprojResolveAssemblyReference.cache
+D:\16.11.21\ANOMS\ANOMS\obj\Debug\ANOMS.dll
+D:\16.11.21\ANOMS\ANOMS\obj\Debug\ANOMS.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Interface.dll
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Interface.pdb
+D:\16.11.21\ANOMS\ANOMS\bin\AN.Interface.dll.config
+D:\16.11.21\ANOMS\ANOMS\bin\System.Data.Common.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Data.SqlClient.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Xml.Linq.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.Data.Edm.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.Data.OData.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Spatial.dll
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.OData.dll
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.Data.Edm.xml
+D:\16.11.21\ANOMS\ANOMS\bin\Microsoft.Data.OData.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Spatial.xml
+D:\16.11.21\ANOMS\ANOMS\bin\System.Web.Http.OData.xml
+D:\16.11.21\ANOMS\ANOMS\bin\de\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\es\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\it\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\de\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\es\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\fr\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\it\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ja\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ko\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ru\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\de\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\es\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\fr\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\it\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ja\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ko\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\ru\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hans\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\zh-Hant\System.Spatial.resources.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\csc.exe
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\csc.exe.config
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\csc.rsp
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\csi.exe
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\csi.rsp
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.AppContext.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.Collections.Immutable.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\System.Reflection.Metadata.dll
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\vbc.exe
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\vbc.exe.config
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\vbc.rsp
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe
+D:\16.11.21\ANOMS\ANOMS\bin\roslyn\VBCSCompiler.exe.config

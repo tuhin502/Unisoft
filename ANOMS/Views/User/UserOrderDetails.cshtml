@@ -1,0 +1,94 @@
+﻿@model AN.Entities.ViewModel.UserDetailsVM
+@{
+    ViewBag.Title = "UserOrderDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Registration/orderdetails.css" rel="stylesheet" />
+<style>
+    th {
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+<h3 class="text-center p-3 text-white" style="background:#023e8a;">User Details</h3>
+
+
+<div class="container-fluid mb-3" id="ordershow">
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-lg-12">
+                <div class="serviceBox green">
+
+
+                    <div class="service-content">
+
+                        <p class="description">
+                            <ul class="list-group">
+                                <li class="list-group-item"><b><span>User Name : </span></b>@Model.name</li>
+                                <li class="list-group-item"><span>User Type : </span>@Model.t_Name</li>
+                                <li class="list-group-item"><span>Shop Name : </span>@Model.s_Name</li>
+                                <li class="list-group-item"><span>Address : </span>@Model.address</li>
+                                <li class="list-group-item"><span>Contact : </span>@Model.id</li>
+                                <li class="list-group-item"><span>Email : </span>@Model.email</li>
+
+                                <li class="list-group-item"><span>Enlisted From : </span>@Model.entryDate </li>
+
+                            </ul>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*<div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-lg-12 table-responsive">
+                    <table class="table">
+                        <thead class="bg-info">
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Product Name</th>
+                                <th>Order Date</th>
+                                <th>Order Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>26565</td>
+                                <td>Suzuki Coffee</td>
+                                <td>10/12/2021</td>
+                                <td><span class="btn btn-warning">Done</span></td>
+                            </tr>
+
+                            <tr>
+
+                                <td>32342</td>
+                                <td>Unisoft Mats</td>
+                                <td>10/12/2021</td>
+                                <td><span class="btn btn-warning">Done</span></td>
+                            </tr>
+                            <tr>
+
+                                <td>233</td>
+                                <td>Unisoft FootWear</td>
+                                <td>10/12/2021</td>
+                                <td><span class="btn btn-warning">Done</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>*@
+
+
+</div>

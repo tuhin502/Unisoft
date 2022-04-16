@@ -1,0 +1,140 @@
+﻿.demo {
+    background: #e2e2e2;
+}
+
+.serviceBox {
+    color: #606060;
+    padding: 0 10px 60px;
+    background-color: #F9A11C;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 80px 0 30px;
+    position: relative;
+}
+
+    .serviceBox .service-content {
+        text-align: left;
+        padding: 15px 20px 30px;
+        margin-top: -80px;
+        border-radius: 25px;
+        background-color: #fff;
+        position: relative;
+        transition: all 0.3s;
+    }
+
+        .serviceBox .service-content:hover {
+            box-shadow: 0 0 20px -5px #000;
+        }
+
+        .serviceBox .service-content:after {
+            content: '';
+            height: 50px;
+            width: 50px;
+            border: 25px solid transparent;
+            border-top: 25px solid #fff;
+            transform: translateX(-50%);
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+        }
+
+    .serviceBox .service-icon {
+        display: inline-block;
+        color: #F9A11C;
+        font-size: 90px;
+        margin-bottom: 10px;
+        transition: all 0.3s ease 0s;
+    }
+
+    .serviceBox:hover .service-icon {
+        transform: rotateX(360deg);
+    }
+
+    .serviceBox .title {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+    }
+
+    .serviceBox .description {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .serviceBox .read-more {
+        display: block;
+        width: 60%;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        padding: 10px 0;
+        background-color: #6D4D42;
+        border-radius: 15px;
+        transform: translateX(-50%);
+        transition: all 0.3s ease 0s;
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+    }
+
+        .serviceBox .read-more:hover {
+            text-decoration: none;
+            letter-spacing: 2px;
+            box-shadow: 0 0 10px #000;
+        }
+
+    .serviceBox.green {
+        background-color: #44BB85;
+    }
+
+        .serviceBox.green .service-icon {
+            color: #44BB85;
+        }
+
+        .serviceBox.green .read-more {
+            background-color: #007A6D;
+        }
+
+    .serviceBox.blue {
+        background-color: #36BFC5;
+    }
+
+        .serviceBox.blue .service-icon {
+            color: #36BFC5;
+        }
+
+        .serviceBox.blue .read-more {
+            background-color: #015F65;
+        }
+
+    .serviceBox.red {
+        background-color: #f23d3a;
+    }
+
+        .serviceBox.red .service-icon {
+            color: #f23d3a;
+        }
+
+        .serviceBox.red .read-more {
+            background-color: #ad0e0c;
+        }
+
+@media only screen and (max-width:990px) {
+    .serviceBox {
+        margin-bottom: 60px;
+    }
+
+        .serviceBox .service-content {
+            padding: 20px 15px 30px;
+        }
+}
+
+@media only screen and (max-width:767px) {
+    .serviceBox {
+        margin-bottom: 130px;
+    }
+}

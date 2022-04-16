@@ -1,0 +1,41 @@
+﻿@model AN.Entities.ViewModel.GetOrderListVM
+
+
+
+<link href="~/Content/Registration/orderdetails.css" rel="stylesheet" />
+<style>
+    #od {
+        color: black;
+    }
+</style>
+
+<div>
+    <div class="modal-header bg-primary">
+        <h5 class="modal-title text-center text-white " id="exampleModalLabel">Your Order</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style=" color:black;">&times;</span>
+        </button>
+    </div>
+
+
+    <hr />
+
+    <div class="serviceBox green">
+
+        <div class="service-content">
+            <p class="description">
+                <ul class="list-group">
+                    <li class="list-group-item"><span id="od">Order Id : </span>@Model.o_ID</li>
+                    <li class="list-group-item"><span id="od">Product Name : </span>@Model.prdt_Name</li>
+                    <li class="list-group-item"><span id="od">Package Name : </span>@Model.pkg_Name</li>
+                    <li class="list-group-item"><span id="od">OrderDate : </span>@Model.entryDate</li>
+                    <li class="list-group-item"><span id="od">OrderBy : </span>@Model.orderBy</li>
+                    <li class="list-group-item"><span id="od">Paymentstatus : </span>@Model.paymentSta</li>
+
+                </ul>
+            </p>
+        </div>
+
+    </div>
+
+</div>

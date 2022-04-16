@@ -1,0 +1,56 @@
+﻿@model AN.Entities.ViewModel.GetOrderListVMs
+
+@*<link href="~/Scripts/anms/styles/site.css" rel="stylesheet" />*@
+<link href="~/Scripts/anms/styles/progress-tracker.css" rel="stylesheet" />
+
+<div class="p-4 text-center text-white text-lg  rounded-top" style="background:#023e8a;"><span class="text-uppercase">Order Status </span></div>
+
+@using (Html.BeginForm("OrderStatusnew", "Order", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <div class="fullwidth" id="anim-path">
+        <div class="container separator">
+            <h3><span name="o_ID">Order Id : </span> @Model.o_ID</h3> @*<button type="submit" class="btn btn-warning" style="float:right;" id="submit">Done</button>*@
+
+            <ul class="progress-tracker progress-tracker--text anim--path">
+                <li class="progress-step" aria-current="step" value="0" typeof="input" name="step">
+                   
+                    <a href="" id="">
+                        <div class="progress-marker"></div>
+                        <div class="progress-text">
+                            <h4 class="progress-title">In_production</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="progress-step" value="1" name="step2">
+                    <a href="#/">
+                        <div class="progress-marker"></div>
+                        <div class="progress-text">
+                            <h4 class="progress-title">Inshipment</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="progress-step" value="2" name="step">
+                    <a href="#/">
+                        <div class="progress-marker"></div>
+                        <div class="progress-text">
+                            <h4 class="progress-title">Packaging</h4>
+                        </div>
+                    </a>
+                </li>
+                <li class="progress-step" value="3" name="step1">
+                    <a href="#/">
+                        <div class="progress-marker"></div>
+                        <div class="progress-text">
+                            <h4 class="progress-title">Deliver</h4>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+}
+    <script src="~/Scripts/jquery.js"></script>
+<script src="~/Scripts/anms/scripts/site.js"></script>

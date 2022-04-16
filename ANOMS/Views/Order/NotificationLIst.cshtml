@@ -1,0 +1,38 @@
+﻿
+@model IEnumerable<AN.Entities.ViewModel.GetAllNotificationVM>
+@{
+    ViewBag.Title = "NotificationLIst";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Order/promotions.css" rel="stylesheet" />
+<h4 class="text-center text-white p-1" style="background:#023e8a;">Notification List</h4>
+<div class="" style="margin-top:-7px;">
+    <table class="table">
+        <thead>
+            <tr id="header">
+                <th scope="col">TO</th>
+                <th scope="col">Message</th>
+                <th scope="col">Validity</th>
+                @*<th scope="col">Action</th>*@
+
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tbody>
+                <tr>
+                    <td scope="row">@item.n_Type</td>
+                    <td>@item.n_msg</td>
+                    <td>@item.validity</td>
+                    @*<td>
+                        <form action="/Order/Promotion_Delete" method="post" style="border:none;margin-left:3px; " id="">
+                            <input type="submit" class="btn btn-danger" value="Delete" style="font-size:10px;" />
+                            <input type="hidden" name="id" value="@item.ntfn_ID" />
+                        </form>
+                    </td>*@
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>

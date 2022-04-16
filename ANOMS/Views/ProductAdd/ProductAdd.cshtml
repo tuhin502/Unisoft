@@ -1,0 +1,237 @@
+﻿@model ANOMS.Models.Productsvm
+@{
+    ViewBag.Title = "ProductAdd";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    th {
+        color: white;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+<link href="~/Content/Registration/table.css" rel="stylesheet" />
+@using (Html.BeginForm("ProductAdd_config", "ProductAdd", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    <form class="form-group">
+        <h3 class="text-center p-3 text-white" style="background:#023e8a;">Product Add</h3>
+        <div class="jumbotron">
+
+            <div class="form-row" style="margin-top:-35px;">
+                <div class="form-group col-md-4">
+
+                    <label for="input">Product Category</label>
+                    @Html.DropDownListFor(model => model.pc_ID, ViewBag.CategoryList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })
+
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="input">Product Name</label>
+                    @Html.EditorFor(model => model.prdt_Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter name", type = "text", required = "true" } })
+
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="input">Product Brand</label>
+
+                    @Html.EditorFor(model => model.brnd_Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter name", type = "text", required = "true" } })
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="input">Package Grade</label>
+                    <div class="input-group">
+                        <div class="form-check mr-2">
+                            @Html.RadioButtonFor(model => model.pkg_grade, "1", new { htmlAttributes = new { type = "radio", id = "grade", @checked = true } })
+
+                            <label class="form-check-label" for="gridRadios1">
+                                Grade1
+                            </label>
+
+                        </div>
+                        <div class="form-check mr-2">
+                            @Html.RadioButtonFor(model => model.pkg_grade, "2", new { htmlAttributes = new { type = "radio", id = "grade" } })
+
+                            <label class="form-check-label" for="gridRadios2">
+                                Grade2
+                            </label>
+                        </div>
+                        <div class="form-check mr-2">
+                            @Html.RadioButtonFor(model => model.pkg_grade, "3", new { htmlAttributes = new { type = "radio", id = "grade" } })
+
+                            <label class="form-check-label" for="gridRadios3">
+                                Grade3
+                            </label>
+                        </div>
+
+                    </div>
+                    <span id="spnError" style="display: none">Please select a grade.</span>
+                    <span id="message"></span>
+                </div>
+
+
+                <div class="form-group col-md-4">
+                    <label for="input">Package Name</label>
+                    @Html.EditorFor(model => model.pkg_Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter package name", type = "text", required = "true" } })
+
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="input">Quantity</label>
+                    @Html.EditorFor(model => model.min_Quantity, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter quantity", type = "number", required = "true" } })
+
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="input">In-price</label>
+                    @Html.EditorFor(model => model.in_Price, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter in Price", type = "number", required = "true" } })
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="input">Sell-price</label>
+                    @Html.EditorFor(model => model.sell_Price, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Sell Price", type = "number", required = "true" } })
+
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="input">Sellable-Quantity</label>
+                    @Html.EditorFor(model => model.sellQuantity, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Sellable Quantity", type = "number", required = "true" } })
+
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="input">Minimum-Quantity</label>
+                    @Html.EditorFor(model => model.miniQuantity, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter Minimum-Quantity", type = "number", required = "true" } })
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="input">Image</label>
+                    <input type="file" name="image_bution" required />
+                </div>
+            </div>
+
+            <div class="form-end text-center mt-3" style="">
+
+                <div class="button-holder text-center">
+                    <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+                </div>
+                <br />
+                @if (@TempData["AlertMessage"] != null)
+                {
+                    <p style="color:blue;text-align:center;" data-dismiss="alert">@TempData["AlertMessage"]</p>
+                }
+            </div>
+        </div>
+
+
+    </form>
+}
+
+
+<h4 class="text-center text-white p-1" style="background:#55a630;margin-top:-25px;">List of Product</h4>
+<div class="table-container" style="margin-top:-10px;">
+    <table class="table">
+
+        <thead class="table-secondary">
+            <tr>
+                @*<th scope="col">P_Id</th>*@
+                <th scope="col">Product Category</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Brand</th>
+                <th scope="col">Grade</th>
+                <th scope="col">Package Name</th>
+                <th scope="col">In-Price</th>
+                <th scope="col">sell-Price</th>
+                <th Scope="col"> Quantity</th>
+                <th Scope="col"> MiniQuantity</th>
+                <th Scope="col"> SellQuantity</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        @foreach (var item in ViewBag.list)
+        {
+            <tbody>
+                <tr>
+                    <td data-label="Product Category">@item.pc_Name</td>
+                    <td data-label="Product Name">@item.prdt_Name</td>
+                    <td data-label="Product Brand">@item.brnd_Name</td>
+                    <td data-label="Grade">@item.pkg_Grade</td>
+                    <td data-label="Package Name">@item.pkg_Name</td>
+                    <td data-label="In-Price">@item.in_Price</td>
+                    <td data-label="Sell-price">@item.sell_Price</td>
+                    <td data-label="Sell-price">@item.quantity</td>
+                    <td data-label="Sell-price">@item.miniQuantity</td>
+                    <td data-label="Sell-price">@item.sellQuantity</td>
+                    <td data-label="Image"><img style="width:50px;height:50px;" src="@Url.Content(item.image_bution)" />
+
+
+                    <td data-label="Action" class="form-check-inline">
+
+                        @*<a href="/ProductAdd/ProductUpdate" class=""><i style="font-size:22px;" class="fas fa-edit"></i></a>*@
+                        <a href="/ProductAdd/ProductEntryEdit?prdt_ID=@item.prdt_ID" class="btn-primary" style="width:60px;padding:2px;text-align:center;">Edit</a>
+
+                        @*<a href="#" title="Delete" class="" id="pedit">
+                                <form action="/ProductAdd/Product_Delete" method="post">
+                                    <input type="submit" class="btn-danger" value="Delete" style="width:60px;font-size:12px;margin-left:5px;" onclick="return confirm('Are you Sure to Delete')" />
+                                    <input type="hidden" name="id" value="@item.prdt_ID" />
+                                </form>
+
+                            </a>*@
+
+                    </td>
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>
+<script src="~/Scripts/jquery.js"></script>
+<script>
+
+    $(function () {
+        $("#submitButton").click(function () {
+            var x = $("input[type = 'radio']:checked");
+            if (x.length == 0) {
+                $('#message').html('Please select atleast one').css('color', 'red');
+
+                return false;
+            }
+            else {
+                $('#message').html('Seleted value').css('color', 'green');
+            }
+        });
+    });
+    //$(function () {
+    //    $("#submitButton").click(function () {
+
+    //        var isValid = $("input[type=radio]").is(":checked");
+
+    //        //Display error message if no RadioButton is checked.
+    //        $("#spnError")[0].style.display = isValid ? "none" : "block";
+    //    });
+    //});
+
+
+
+</script>

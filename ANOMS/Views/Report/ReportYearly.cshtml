@@ -1,0 +1,91 @@
+﻿@model ANOMS.Models.Productsvm
+@{
+    ViewBag.Title = "ReportYearly";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">*@
+
+
+<link href="~/Content/bootstrap-datepicker.min.css" rel="stylesheet" />
+
+<div class="container-fluid">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Inventory</h3>
+
+    <div class="row">
+        <div class="col-lg-12 col-md-auto col-sm-12">
+            <form action="/ProductAdd/ProductEntryEdit_config" method="post" class="needs-validation mt-3" enctype="multipart/form-data">
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Category</label>
+                        @Html.DropDownListFor(model => model.pc_ID, ViewBag.CategoryList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })
+
+                        @*<input type="text" name="prdt_Name" id="productName" value="" style="height:40px;" class="form-control" required />*@
+
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Product Name</label>
+
+                        @Html.DropDownListFor(model => model.prdt_Name, ViewBag.ProductList as SelectList, "--Select One--", new { @class = "form-control", required = "true" })
+
+
+                        @*<input type="text" name="prdt_Name" id="productName" value="" style="height:40px;" class="form-control" required />*@
+                        <div class="invalid-feedback">
+                            Please Enter Product Name
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-3 mb-3">
+
+                        <label for="validationCustom01">Yearly</label>
+                        <select class="form-control">
+                            <option>--Select--</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option><option>2003</option>
+                            <option>2004</option><option>2005</option><option>2006</option><option>2007</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option>2015</option><option>2016</option><option>2017</option><option>2018</option>
+                            <option>2019</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option>
+                        </select>
+
+                        @*<input type="text" class="form-control" name="datepicker" id="datepicker" />*@
+
+
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <button class="btn btn-success w-50" style="margin-top:30px;">Search</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+@*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>*@
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<script src="~/Scripts/bootstrap-datepicker.min.js"></script>
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>*@
+<script>
+    $(document).ready(function () {
+        $("#datepicker").datepicker({
+            format: "yyyy",
+            viewMode: "years",
+            minViewMode: "years",
+            autoclose: true
+        });
+    })
+
+
+</script>
+

@@ -1,0 +1,35 @@
+D:\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll.config
+D:\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll
+D:\ANOMS\AN.Entities\bin\Debug\AN.Entities.pdb
+D:\ANOMS\AN.Entities\bin\Debug\EntityFramework.dll
+D:\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\ANOMS\AN.Entities\bin\Debug\EntityFramework.xml
+D:\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\ANOMS\AN.Entities\obj\Debug\AN.Entities.csprojResolveAssemblyReference.cache
+D:\ANOMS\AN.Entities\obj\Debug\AN.Entities.dll
+D:\ANOMS\AN.Entities\obj\Debug\AN.Entities.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll.config
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\AN.Entities.pdb
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\EntityFramework.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\EntityFramework.xml
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\obj\Debug\AN.Entities.csprojAssemblyReference.cache
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\obj\Debug\AN.Entities.csproj.CoreCompileInputs.cache
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\obj\Debug\AN.Entities.csproj.CopyComplete
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\obj\Debug\AN.Entities.dll
+C:\MR tuhin\Novembor\ANOMS\AN.Entities\obj\Debug\AN.Entities.pdb
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll.config
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\AN.Entities.dll
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\AN.Entities.pdb
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\EntityFramework.dll
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\EntityFramework.xml
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\16.11.21\ANOMS\AN.Entities\obj\Debug\AN.Entities.dll
+D:\16.11.21\ANOMS\AN.Entities\obj\Debug\AN.Entities.pdb
+D:\16.11.21\ANOMS\AN.Entities\obj\Debug\AN.Entities.csprojResolveAssemblyReference.cache
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\System.Data.Common.dll
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\System.Data.SqlClient.dll
+D:\16.11.21\ANOMS\AN.Entities\bin\Debug\System.Xml.Linq.dll

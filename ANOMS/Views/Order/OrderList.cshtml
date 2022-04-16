@@ -1,0 +1,120 @@
+﻿@model IEnumerable<AN.Entities.ViewModel.GetOrderListVM>
+@{
+    ViewBag.Title = "OrderList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    th {
+        color: white;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+<!-- Modal -->
+<div class="modal" id="myModal"  role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div id='myModalContent'>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+@*model end*@
+
+
+<link href="~/Content/Order/Orderlist.css" rel="stylesheet" />
+
+@*<h4 class="text-center text-white p-1" style="background:#55a630;">Order List</h4>*@
+<h3 class="text-center p-3 text-white" style="background:#023e8a;">Order List</h3>
+<div class="" style="">
+    <table class="table" id="Ordergrid">
+        <thead class="" style="text-align:center;">
+            <tr id="header">
+                <th scope="col">Order Id</th>
+                <th scope="col">Category Name</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Package Name</th>
+                <th scope="col">Order Date</th>
+                <th scope="col">Order By</th>
+                <th scope="col">Order Status</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tbody>
+                <tr>
+                    <td>@item.o_ID</td>
+                    <td>@item.pc_Name</td>
+                    <td>@item.prdt_Name</td>
+                    <td>@item.pkg_Name</td>
+                    <td>@item.modifyDate</td>
+                    <td>@item.name</td>
+                    <td>@item.paymentSta</td>
+
+                    <td class="">
+                        @*<a href="/Order/ProductDetails?prdt_ID=@item.prdt_ID" id="buttonstatus" class="btn btn-success" style="width:60px;padding:1px;text-align:center;">Details</a>*@
+
+                        <a href="javascript:void(0);" id="buttonstatus" style="width:60px;padding:1px;text-align:center;" class="btn btn-success anchorDetail" data-id="@item.o_ID">Details</a>
+
+
+                        @*<button type="button" class="btn btn-success" href="/Order/ProductDetails?prdt_ID=@item.o_ID">
+                        Details
+                       </button>*@
+     
+                        <a class="btn btn-warning" id="buttonstatus" href="/Order/OrderStatusnew?o_ID=@item.o_ID" style="width:60px;padding:1px;text-align:center;">Status</a>
+                    </td>
+                </tr>
+
+
+            </tbody>
+        }
+    </table>
+
+</div>
+<script src="~/Scripts/jquery.js"></script>
+<script>
+
+    $(function () {
+        //debugger;
+        $("#Ordergrid .anchorDetail").click(function () {
+
+            var $buttonClicked = $(this);
+            var o_ID = $buttonClicked.attr('data-id');
+            var options = { "backdrop": "static", keyboard: true };
+            $.ajax({
+                type: "POST",
+                url: "/Order/ProductDetailsnew",
+                contentType: "application/json; charset=utf-8",
+                data: '{ o_ID :"' + o_ID + '" }',
+                datatype: "html",
+                success: function (data) {
+                    //debugger;
+                    $('#myModalContent').html(data);
+                    $('#myModal').modal(options);
+                    $('#myModal').modal('show');
+
+                },
+                error: function () {
+                    alert("Dynamic content load failed.");
+                }
+            });
+        });
+    });
+        //$("#closebtn").on('click',function(){
+        //    $('#myModal').modal('hide');
+
+        //$("#closbtn").click(function () {
+        //    $('#myModal').modal('hide');
+        //});
+
+
+</script>  

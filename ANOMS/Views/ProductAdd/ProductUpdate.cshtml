@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "ProductUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    th {
+        color: white;
+    }
+</style>
+<form class="form-group">
+    <h3 class="text-center p-3 text-white" style="background:#023e8a;">Price Update</h3>
+    <div class="jumbotron">
+
+        <div class="form-row" style="margin-top:-35px;">
+            <div class="form-group col-md-4">
+                <label for="input">Product Name</label>
+                <input type="text" name="product" class="form-control" placeholder="Enter name" />
+
+            </div>
+            <div class="form-group col-md-4">
+                <label for="input">Present Price</label>
+                <input type="number" name="product" class="form-control" placeholder="Enter price" />
+
+            </div>
+            <div class="form-group col-md-4">
+                <label for="input">Privious Price</label>
+                <input type="number" name="product" class="form-control" placeholder="" value="50"/>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary w-25 " type="submit" id="submitbtn">Update</button>
+            <br />
+            <p style="color:red"></p>
+        </div>
+
+    </div>     
+</form>
+<h4 class="text-center text-white p-1" style="background:#55a630;margin-top:-20px;">Product List</h4>
+<div class="table-responsive" style="margin-top:-7px;">
+    <table class="table" >
+        <thead class="table-secondary" style="background:#0096c7;">
+            <tr>
+                <th scope="col">P_Id</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Product Brand</th>
+                <th scope="col">Product Category</th>
+                <th scope="col">Grade</th>
+                <th scope="col">Package Name</th>
+                <th scope="col">In-Price</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>Otto</td>
+
+                <td class="form-check-inline">
+
+                    <a href="#" class=""><i style="font-size:22px;" aria-hidden="true" class="fas fa-edit"></i></a>
+                    <a href="#" title="Delete">
+                        <i style="font-size:22px; " aria-hidden="true" class="fas fa-trash ml-2"></i>
+                    </a>
+
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">2</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>mdo</td>
+                <td>Otto</td>
+
+                <td class="form-check-inline">
+
+                    <a href="#" class=""><i style="font-size:22px;" aria-hidden="true" class="fas fa-edit"></i></a>
+                    <a href="#" title="Delete">
+                        <i style="font-size:22px; " aria-hidden="true" class="fas fa-trash ml-2"></i>
+                    </a>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</div>
